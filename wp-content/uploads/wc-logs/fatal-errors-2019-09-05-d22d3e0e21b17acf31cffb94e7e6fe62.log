@@ -1,0 +1,10 @@
+2019-09-05T17:15:01+00:00 CRITICAL Uncaught Error: Call to undefined function dental_care_categorized_blog() in E:\OpenServer\domains\wega-dental.ru\wp-content\plugins\dentalcare-cpt\shortcodes\blog-grid.php:174
+Stack trace:
+#0 E:\OpenServer\domains\wega-dental.ru\wp-includes\shortcodes.php(325): dental_care_blog_grid_shortcode(Array, '', 'dental_care_blo...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 E:\OpenServer\domains\wega-dental.ru\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(ultima...', 'do_shortcode_ta...', '[ultimate_headi...')
+#3 E:\OpenServer\domains\wega-dental.ru\wp-content\plugins\js_composer\include\helpers\helpers.php(236): do_shortcode('[ultimate_headi...')
+#4 E:\OpenServer\domains\wega-dental.ru\wp-content\plugins\js_composer\include\templates\shortcodes\vc_column.php(94): wpb_js_remove_wpautop('[ultimate_headi...')
+#5 E:\OpenServer\domains\wega-dental.ru\wp-content\plugins\js_composer\include\classes\shortcodes\shortcodes.php(478): include('E:\\OpenServer\\d...')
+#6 E:\OpenServer\domains\wega-d в E:\OpenServer\domains\wega-dental.ru\wp-content\plugins\dentalcare-cpt\shortcodes\blog-grid.php на строке 174
+

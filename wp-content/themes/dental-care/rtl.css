@@ -1,0 +1,367 @@
+/* 
+    Theme Name : Dental Care
+    Description: Adds support for languages written in a Right To Left (RTL) direction.
+*/
+
+
+
+/*--------------------------------------------------------------
+2.0 Typography
+--------------------------------------------------------------*/
+body{
+     direction: rtl;
+     unicode-bidi: embed;
+}
+
+/*--------------------------------------------------------------
+5.0 Header
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+5.1 Top Header
+--------------------------------------------------------------*/
+.header-top-contact{
+    text-align: right;
+}
+
+.header-top i{
+    padding-left: 5px;
+}
+
+.header-top .icon-wrapper{
+    float: right;
+}
+
+/*--------------------------------------------------------------
+5.2 Main Navigation
+--------------------------------------------------------------*/
+.logo-wrap,
+.main-navigation,
+.nav-icons-right{
+float: right;
+}
+
+.main-navigation{
+text-align: right;
+}
+
+.navbar-nav{
+padding: 0;
+}
+
+.navbar-nav>li {
+margin-left: 2px;
+float: right;
+}
+
+.nav-icon{
+float: left !important;
+}
+
+.nav-icon:first-child{
+margin-left: 0;
+}
+
+.stronghold-menu i {
+    padding-left: 8px;
+}
+
+/*--------------------------------------------------------------
+5.4 Header Styles
+--------------------------------------------------------------*/
+.header-two .logo-wrap{
+    float: none;
+}
+
+.header-three .header-three-contact-info{
+    text-align: left;
+    float: left;
+}
+
+.header-two .navbar,
+.header-three .logo-title-wrap,
+.header-three .navbar,
+.header-four .logo-title-wrap,
+.header-four .navbar{
+    float: right;
+}
+
+.header-four .header-contact-info .icon-wrapper{
+   padding-left: 8px;
+}
+
+.header-six .main-navigation,
+.header-six .nav-icon{
+    float: none !important;
+}
+
+/*--------------------------------------------------------------
+5.5 Page Header & Breadcrumbs
+--------------------------------------------------------------*/
+.strhld-page-title {
+    float: right;
+}
+
+.strhld-breadcrumb {
+    text-align: left;
+}
+
+@media screen and (max-width:800px){
+    .strhld-page-title,
+    .strhld-breadcrumb{
+        text-align: center;
+    }
+
+    .strhld-breadcrumb .breadcrumb-trail{
+        float: none;
+    }
+
+}
+
+/*--------------------------------------------------------------
+5.7 Mobile Menu
+--------------------------------------------------------------*/
+.header-mobile .icon-wrapper {
+    float: right;
+}
+
+/*--------------------------------------------------------------
+6.0 Footer
+--------------------------------------------------------------*/
+.site-info-inner{
+    text-align: right; 
+    float: right;
+}
+
+.footer-menu ul{
+    text-align: left;
+}
+
+.footer-menu li{
+  margin-right: 0px;
+  margin-left: 1px;
+  padding-right: 0px;
+  padding-left: 4px;
+  border-right: none;
+  border-left: 1px solid;
+}
+
+.footer-menu li:last-child{
+  margin-left: 0px;
+  padding-left: 0px;
+  border-left: none;
+}
+
+.footer-menu{
+    text-align: left;
+}
+
+.site-info-wrapper .footer-menu-wrapper, .site-info-wrapper .social-menu-wrapper{
+float: left;
+}
+
+.footer-menu li{
+border: none;
+}
+
+/*--------------------------------------------------------------
+9.0 Widgets
+--------------------------------------------------------------*/
+.widget li li { margin-left: 0em; margin-right: 1.5em;}
+
+.widget_recent_entries li:before,
+.widget_recent_comments li:before,
+.widget_archive li:before,
+.widget_categories li:before{
+    margin-left: 0em;
+    float: right;
+    margin-right: -2.5em;
+} 
+
+.widget_categories li{
+    margin: 0 2.5em 0 0;
+}
+
+.widget_tag_cloud a{
+    padding-right: 0em;
+    padding-left: .1em;
+}
+
+#wp-calendar #next{
+      padding-right: 70px;
+       padding-left: 0px;
+}
+
+.widget_nav_menu li:before{
+    padding-right: 0;
+    padding-left: 8px;
+}
+
+.company-info-wid,
+.recent-widget ul{
+    padding-right: 0;
+}
+
+.company-info-wid li i{
+    padding-right: 0px;   
+    padding-left: 5px;
+}
+
+.company-info-wid li i{
+    padding-right: 0px;
+    padding-left: 20px;
+}
+
+.opening-hours-detail .opening-hours-icon-text-wrapper{
+    float: right;
+}
+
+.opening-hours-detail .opening-hours-time{
+    float: left;
+}
+
+.opening-hours-detail .opening-hours-icon{
+    float: right;
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+.opening-hours-detail .opening-hours-icon i{
+    padding-right: 0;
+    padding-left: 8px;
+}
+
+.recent-post-item{   
+    margin-right:0;
+}
+
+.recent-post-img{
+    float:right;
+    margin-right:0px;
+    margin-left:14px;
+}
+
+.social-widget ul{
+    padding-right: 0;
+}
+
+/*--------------------------------------------------------------
+10.1 Posts and pages
+--------------------------------------------------------------*/
+.read-more-wrapper{
+float: right !important;
+}
+
+.page .entry-content {
+direction: ltr !important;
+}
+
+article .entry-content,
+.post .entry-content{
+direction: rtl !important;
+}
+
+.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous{
+text-align: left;
+}
+
+.author-img {
+    margin-left: 30px !important;
+    float: right !important;
+}
+
+.author_soclinks{
+padding-right: 0;
+}
+
+.comment-author-img{
+float: right;
+}
+
+/*--------------------------------------------------------------
+13.2 Services
+--------------------------------------------------------------*/
+.service-content{
+direction: ltr;
+}
+
+/*--------------------------------------------------------------
+13.3 Team Members
+--------------------------------------------------------------*/
+.team-member-block-list-img-wrapper{
+float: right;
+}
+
+.team-member-detail-list li{
+    text-align: right;
+}
+
+.team-member-content{
+direction: ltr;
+}
+
+/*--------------------------------------------------------------
+15.2 Blog Grid
+--------------------------------------------------------------*/
+.blog-grid-widget-info{
+text-align: right;
+direction: rtl;
+}
+/*--------------------------------------------------------------
+15.7 Info Icon
+--------------------------------------------------------------*/
+.stronghold-info-icon-wrapper,
+.stronghold-counter-wrapper,
+.stronghold-icon-box-wrapper{
+    overflow: hidden !important;
+}
+
+
+/*--------------------------------------------------------------
+15.11 Price List
+--------------------------------------------------------------*/
+.price-list-content {
+    text-align: right;
+}
+
+.price-list-icon{
+    float: right;
+    padding-left: 8px;
+    padding-right: 0;
+}
+
+.price-list-price {
+    float: left;
+}
+
+/*--------------------------------------------------------------
+16.0 Misc
+--------------------------------------------------------------*/
+.owl-carousel{
+direction: ltr;
+}
+
+.sidr-open{
+    direction: ltr !important;
+}
+
+.wpb_content_element{
+direction: rtl;
+}
+
+.vc_toggle_title{
+    text-align: right;
+    padding-right: 33px;
+    padding-left: 0;
+}
+
+.vc_toggle_icon{
+    right: 0;
+    left: initial !important;
+}
+
+.vc_toggle_content{
+    text-align: right;
+}
+
+
+

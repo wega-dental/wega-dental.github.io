@@ -1,0 +1,43 @@
+
+---Downloaded files---
+The import files for: Demo 1 were successfully downloaded!
+Initial max execution time = 180
+Files info:
+Site URL = http://wega-dental.ru
+Data file = E:\OpenServer\domains\wega-dental.ru/wp-content/themes/dental-care/demo/demo1/dental-care-data.xml
+Widget file = E:\OpenServer\domains\wega-dental.ru/wp-content/themes/dental-care/demo/demo1/widgets.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Main Sidebar : 
+
+Поиск - No Title - Widget already exists
+Dental Care: Recent Posts - Recent Posts - Imported
+Рубрики - No Title - Widget already exists
+Облако меток - Tags - Imported
+
+Shop Sidebar : 
+
+Категории товаров - Product Categories - Imported
+Товары - Products - Imported
+
+Footer Sidebar 1 : 
+
+Текст - No Title - Imported
+Dental Care: Company Info - About Us - Imported
+
+Footer Sidebar 2 : 
+
+Меню навигации - Services - Imported
+
+Footer Sidebar 3 : 
+
+Dental Care: Opening Hours - Opening Hours - Imported
+Dental Care: Social - Follow Us - Imported
+
+
+
+---pt-ocdi/after_import---
+ Slider processed
